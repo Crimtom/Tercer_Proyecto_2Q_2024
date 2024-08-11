@@ -76,6 +76,7 @@
     <Compile Include="Capa_Datos\CLS_candidatos.cs" />
     <Compile Include="Capa_Datos\CLS_partidos.cs" />
     <Compile Include="Capa_Datos\CLS_plataformas.cs" />
+    <Compile Include="Capa_Datos\CLS_usuarios.cs" />
     <Compile Include="Capa_Datos\CLS_votos.cs" />
     <Compile Include="Capa_Vistas\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
