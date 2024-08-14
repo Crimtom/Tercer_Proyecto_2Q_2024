@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Capa_Vistas\CSS\StyleHome.css" />
+    <Content Include="Capa_Vistas\Imagenes\LOGIN\background.png" />
+    <Content Include="Capa_Vistas\Imagenes\LOGIN\Data box.png" />
+    <Content Include="Capa_Vistas\Imagenes\LOGIN\Login.png" />
     <Content Include="Capa_Vistas\Inicio.aspx" />
     <Content Include="Capa_Vistas\Login.aspx" />
     <Content Include="Web.config" />
@@ -105,7 +109,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Capa_Logica\" />
-    <Folder Include="Capa_Vistas\CSS\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
