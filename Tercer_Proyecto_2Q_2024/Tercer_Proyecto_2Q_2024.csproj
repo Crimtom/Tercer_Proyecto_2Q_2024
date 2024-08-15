@@ -67,12 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Capa_Vistas\candidatos.aspx" />
     <Content Include="Capa_Vistas\CSS\StyleHome.css" />
+    <Content Include="Capa_Vistas\CSS\StyleMaster.css" />
+    <Content Include="Capa_Vistas\CSS\StyleStart.css" />
+    <Content Include="Capa_Vistas\Imagenes\Inicio\Cielo Claro.jpeg" />
+    <Content Include="Capa_Vistas\Imagenes\Inicio\Clear Sky.jpg" />
     <Content Include="Capa_Vistas\Imagenes\LOGIN\background.png" />
     <Content Include="Capa_Vistas\Imagenes\LOGIN\Data box.png" />
     <Content Include="Capa_Vistas\Imagenes\LOGIN\Login.png" />
     <Content Include="Capa_Vistas\Inicio.aspx" />
     <Content Include="Capa_Vistas\Login.aspx" />
+    <Content Include="Capa_Vistas\resultados.aspx" />
+    <Content Include="Capa_Vistas\votos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +89,13 @@
     <Compile Include="Capa_Datos\CLS_plataformas.cs" />
     <Compile Include="Capa_Datos\CLS_usuarios.cs" />
     <Compile Include="Capa_Datos\CLS_votos.cs" />
+    <Compile Include="Capa_Vistas\candidatos.aspx.cs">
+      <DependentUpon>candidatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Capa_Vistas\candidatos.aspx.designer.cs">
+      <DependentUpon>candidatos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Capa_Vistas\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -96,9 +110,30 @@
     <Compile Include="Capa_Vistas\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Capa_Vistas\resultados.aspx.cs">
+      <DependentUpon>resultados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Capa_Vistas\resultados.aspx.designer.cs">
+      <DependentUpon>resultados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Capa_Vistas\votos.aspx.cs">
+      <DependentUpon>votos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Capa_Vistas\votos.aspx.designer.cs">
+      <DependentUpon>votos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.Master.cs">
+      <DependentUpon>MainMenu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.Master.designer.cs">
+      <DependentUpon>MainMenu.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MainMenu.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
