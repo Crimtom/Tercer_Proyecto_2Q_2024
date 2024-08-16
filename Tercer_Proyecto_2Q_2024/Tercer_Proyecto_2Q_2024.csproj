@@ -68,9 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Capa_Vistas\candidatos.aspx" />
+    <Content Include="Capa_Vistas\CSS\StyleCandy.css" />
     <Content Include="Capa_Vistas\CSS\StyleHome.css" />
     <Content Include="Capa_Vistas\CSS\StyleMaster.css" />
     <Content Include="Capa_Vistas\CSS\StyleStart.css" />
+    <Content Include="Capa_Vistas\CSS\StyleVoto.css" />
     <Content Include="Capa_Vistas\Imagenes\Inicio\Cielo Claro.jpeg" />
     <Content Include="Capa_Vistas\Imagenes\Inicio\Clear Sky.jpg" />
     <Content Include="Capa_Vistas\Imagenes\LOGIN\background.png" />

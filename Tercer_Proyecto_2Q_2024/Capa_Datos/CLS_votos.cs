@@ -11,6 +11,7 @@ namespace Tercer_Proyecto_2Q_2024.Capa_Datos
         public static string cedula { get; set; }
         public static string nombre { get; set; }
         public static byte voted {  get; set; }
+        public static int edad {  get; set; }
         public static int voto_candid {  get; set; }
     }
 }
