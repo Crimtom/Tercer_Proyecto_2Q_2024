@@ -32,7 +32,7 @@
                     <asp:Label ID="Lb_plataf" runat="server" Text="Plataforma" CssClass="title_pla"></asp:Label>
                     <asp:TextBox ID="Txt_plataf" runat="server" CssClass="class_pla"></asp:TextBox>
 
-                    <asp:Button ID="Boto_candysend" runat="server" Text="Añadir" CssClass="b_candi"/>
+                    <asp:Button ID="Boto_candysend" runat="server" Text="Añadir" CssClass="b_candi" OnClick="Boto_candysend_Click"/>
 
                 </article>
             </section>

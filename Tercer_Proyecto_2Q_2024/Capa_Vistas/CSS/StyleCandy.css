@@ -89,5 +89,7 @@ section {
 .b_candi {
     position: relative;
     top: 400px;
-    left: 0px;
+    left: -120px;
+    height: 61px;
+    width: 377px;
 }
