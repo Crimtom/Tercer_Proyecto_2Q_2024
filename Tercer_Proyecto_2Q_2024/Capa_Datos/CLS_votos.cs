@@ -12,6 +12,6 @@ namespace Tercer_Proyecto_2Q_2024.Capa_Datos
         public static string nombre { get; set; }
         public static byte voted {  get; set; }
         public static int edad {  get; set; }
-        public static int voto_candid {  get; set; }
+        public static CLS_candidatos voto_candid {  get; set; }
     }
 }

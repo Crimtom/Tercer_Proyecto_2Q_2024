@@ -91,10 +91,12 @@
     <Compile Include="Capa_Datos\CLS_plataformas.cs" />
     <Compile Include="Capa_Datos\CLS_usuarios.cs" />
     <Compile Include="Capa_Datos\CLS_votos.cs" />
+    <Compile Include="Capa_Datos\CLS_votos_amount.cs" />
     <Compile Include="Capa_Logica\CLS_met_candidatos.cs" />
     <Compile Include="Capa_Logica\CLS_met_partidos.cs" />
     <Compile Include="Capa_Logica\CLS_met_plataformas.cs" />
     <Compile Include="Capa_Logica\CLS_met_votos.cs" />
+    <Compile Include="Capa_Logica\CLS_met_votos_amount.cs" />
     <Compile Include="Capa_Vistas\candidatos.aspx.cs">
       <DependentUpon>candidatos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
