@@ -11,6 +11,7 @@
 <body style="height: 538px; width: 1187px">
     <form id="form1" runat="server">
         <div style="width: 1205px">
+            <asp:GridView ID="GDcandi" runat="server"></asp:GridView>
             <header>
                 <h2>Añadir Candidato</h2>
             </header>

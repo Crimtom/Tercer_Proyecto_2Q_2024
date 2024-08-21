@@ -26,13 +26,16 @@ namespace Tercer_Proyecto_2Q_2024.Capa_Vistas
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT * FROM candidatos"))
                 {
-                    cmd.Connection = con;
-                    sda.SelectCommand = cmd;
-                    using (DataTable dt = new DataTable())
+                    using (SqlDataAdapter sda = new SqlDataAdapter())
                     {
-                        sda.Fill(dt);
-                        GridView1.DataSource = dt;
-                        GridView1.DataBind();
+                        cmd.Connection = con;
+                        sda.SelectCommand = cmd;
+                        using (DataTable dt = new DataTable())
+                        {
+                            sda.Fill(dt);
+                            GDcandi.DataSource = dt;
+                            GDcandi.DataBind();
+                        }
                     }
                 }
             }

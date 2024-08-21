@@ -24,6 +24,15 @@ namespace Tercer_Proyecto_2Q_2024.Capa_Vistas
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// Control GDcandi.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GDcandi;
+
+        /// <summary>
         /// Control Lb_cedula.
         /// </summary>
         /// <remarks>
